@@ -22,5 +22,5 @@ jobs:
           accuknox_tenant: "${{ secrets.ACCUKNOX_TENANT }}"
           accuknox_token: "${{ secrets.ACCUKNOX_TOKEN }}"
           accuknox_label: "${{ secrets.ACCUKNOX_LABEL }}"
-          input_soft_fail: true
+          input_soft_fail: false
           upload_artifact: true
